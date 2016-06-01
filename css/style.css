@@ -1,0 +1,509 @@
+﻿.col-phone-2 {
+  width: 25%;
+}
+.col-phone-4 {
+  width: 33.33333333%;
+}
+.col-phone-10 {
+  width: 75%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333%;
+}
+.col-5 {
+  width: 41.66666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-8 {
+  width: 66.66666667%;
+}
+.col-10 {
+  width: 83.33333333%;
+}
+.col-11 {
+  width: 91.66666667%;
+}
+.col-12 {
+  width: 100%;
+  padding: 0 10px;
+}
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-8,
+.col-10,
+.col-11,
+.col-tab-4,
+.col-tab-12 {
+  padding: 0 10px;
+  float: left;
+}
+.col-phone-2,
+.col-phone-4,
+.col-phone-10 {
+  float: left;
+  padding: 0;
+}
+.col-1-margin {
+  margin-left: 8.33333333%;
+}
+.col-2-margin {
+  margin-left: 16.66666667%;
+}
+.responsive {
+  width: 100% !important;
+  height: auto;
+}
+.visible {
+  display: none;
+}
+@media (max-width: 992px) {
+  .inner {
+    width: 100% !important;
+  }
+  .col-1-margin {
+    margin-left: 8.33333333%;
+  }
+  .col-2-margin {
+    margin-left: 16.66666667%;
+  }
+  .col-tab-4 {
+    width: 33.33333333%;
+  }
+  .col-tab-12 {
+    width: 100%;
+  }
+  .responsive {
+    width: 100% !important;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .inner {
+    width: 100% !important;
+  }
+  .responsive {
+    width: 100% !important;
+    height: auto;
+  }
+  .hidden {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
+  .center {
+    margin: 0 auto !important;
+  }
+  .col-1-margin,
+  .col-2-margin {
+    margin-left: 0;
+  }
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-8,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .col-phone-2 {
+    width: 16.66666667%;
+  }
+  .col-phone-4 {
+    width: 33.33333333%;
+  }
+  .col-phone-10 {
+    width: 83.33333333%;
+  }
+  .col-phone-2,
+  .col-phone-2 {
+    float: left;
+    padding: 0;
+  }
+  .menu {
+    position: relative;
+  }
+  nav.main {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    font-size: 23.8px;
+    background: #474747;
+  }
+  nav.main ul > li {
+    float: none !important;
+  }
+  nav.main ul > li a {
+    padding: 0 20px;
+    font-weight: normal;
+  }
+  nav.main ul > li a:hover,
+  nav.main ul > li a.active {
+    color: #666;
+  }
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header,
+footer,
+section,
+nav {
+  display: block;
+}
+header,
+.history,
+.mercury,
+.comments,
+footer {
+  min-width: 511px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+h1,
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 60.2px;
+}
+h2 {
+  font-size: 47.6px;
+}
+h3 {
+  font-size: 30.8px;
+  font-weight: bold;
+}
+hgroup {
+  color: #000;
+}
+p {
+  color: #ccc;
+  line-height: 150%;
+  font-weight: lighter;
+  font-size: 16px;
+}
+img {
+  display: block;
+}
+.over {
+  overflow: hidden;
+}
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.inner {
+  width: 960px;
+  margin: 0 auto;
+  min-width: 461px;
+}
+header.head {
+  background-image: url('../images/bg.png');
+  height: 800px;
+  background-position: center center;
+  color: #fff;
+}
+header.head section.top {
+  margin: 40px 0;
+}
+header.head section.top .logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 23.8px;
+  margin: 10px 0;
+}
+header.head section.top nav.main ul {
+  margin: 16px 0;
+  padding: 0;
+  list-style: none;
+}
+header.head section.top nav.main ul li {
+  float: left;
+}
+header.head section.top nav.main ul li a {
+  padding: 0 20px;
+  font-weight: normal;
+  display: block;
+}
+header.head section.top nav.main ul li a:hover,
+header.head section.top nav.main ul li a.active {
+  color: #666;
+}
+header.head section.top #menu {
+  background-image: url(../images/menu-icon.png);
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+header.head section.bottom {
+  margin-top: 215px;
+}
+header.head section.bottom p {
+  font-size: 23.8px;
+  font-weight: lighter;
+  color: #fff;
+}
+nav.small {
+  position: relative;
+}
+nav.small button {
+  background-image: url(../images/menu-icon.png);
+  width: 50px;
+  height: 50px;
+}
+nav.small ul {
+  display: none;
+  position: absolute;
+  float: right;
+}
+nav.small ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+nav.small ul li a {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+nav.small ul li a:hover {
+  color: #666;
+}
+.learn,
+.choose {
+  font-size: 16px;
+}
+.learn {
+  background-color: #f33;
+  border-radius: 5px;
+  padding: 20px 42px;
+  display: block;
+  color: #fff;
+  margin-right: 26px;
+}
+.choose {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 18px 33px;
+  display: block;
+  color: #fff;
+  border: #fff 2px solid;
+}
+section.history {
+  border-bottom: #faf9f9 1px solid;
+  padding: 50px;
+}
+section.history h2 {
+  margin-top: 207px;
+}
+section.history p {
+  margin: 50px 0;
+  line-height: 175%;
+}
+section.answer {
+  margin: 110px auto;
+}
+section.answer header {
+  margin-bottom: 100px;
+}
+section.answer header > img {
+  margin: 30px auto 0;
+}
+section.answer header > h3,
+section.answer header > p {
+  text-align: center;
+}
+section.answer figure figcaption {
+  color: #000;
+  font-size: 16px;
+  margin: 32px 0 28px;
+  font-weight: bold;
+  line-height: 150%;
+}
+section.mercury {
+  padding: 110px 0;
+  background-color: #faf9f9;
+}
+section.mercury .col-6 img {
+  margin: 31px 0;
+}
+section.mercury .col-6 p {
+  font-size: 16px;
+}
+section.mercury .col-6 a {
+  width: 165px;
+}
+section.guestion {
+  margin: 60px auto;
+}
+section.guestion p > span {
+  font-weight: bold;
+  color: black;
+}
+section.jewelery,
+section.photoblog {
+  margin-bottom: 100px;
+}
+section.jewelery .col-3,
+section.photoblog .col-3 {
+  padding: 0;
+}
+section.jewelery .col-3 img,
+section.photoblog .col-3 img {
+  border: 0;
+  margin: 0;
+}
+section.jewelery .col-3 + .col-6 h2,
+section.photoblog .col-3 + .col-6 h2 {
+  margin: 60px 45px 60px;
+  width: 200px;
+}
+section.jewelery .col-3 + .col-6 img,
+section.photoblog .col-3 + .col-6 img {
+  margin-left: 45px;
+}
+section.jewelery p,
+section.photoblog p {
+  margin-top: 60px;
+}
+section.comments {
+  background-color: #faf9f9;
+  padding: 40px 0 65px;
+}
+section.comments .col-12 {
+  margin: 40px 0;
+  text-align: center;
+}
+section.comments .col-12 img {
+  margin: 30px auto 0;
+}
+section.comments .col-12 p {
+  width: 380px;
+  margin: 16px auto;
+}
+section.comments .col-4 {
+  margin: 45px 0;
+}
+section.comments .col-4 p.icon {
+  background-color: #f33;
+  border-radius: 19px;
+  padding: 0 10px;
+  display: block;
+  color: #fff;
+  width: 38px;
+  height: 38px;
+  font-family: 'Times New Roman';
+  font-size: 42px;
+  margin: 9px 0;
+  float: left;
+}
+section.comments .col-4 p > span {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+section.comments .col-4 p.prof {
+  font-size: 14px;
+}
+section.photoblog h2,
+section.photoblog img {
+  margin-left: 0 !important;
+}
+footer {
+  background-color: #000;
+  padding: 75px 0;
+}
+footer .col-12 h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin: 0;
+}
+footer .col-12 nav a {
+  display: inline-block;
+  margin: 0 5px;
+}
+footer .col-12 nav a span {
+  font-size: 21px;
+  margin: 0 3px;
+  color: #474747;
+}
+footer .col-3 a {
+  color: #474747;
+}
+footer .col-3 a:hover {
+  text-decoration: underline;
+  font-weight: lighter;
+}
+footer .right {
+  text-align: right;
+}
+footer .right p {
+  color: #474747;
+}
+.anchor {
+  background-color: #f33;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  color: #fff;
+  position: fixed;
+  top: 500px;
+  right: 20px;
+  z-index: 1;
+  display: none;
+}
+#shadow {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  z-index: 10;
+}
+.window {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  margin-top: -150px;
+  margin-left: -200px;
+}
+#shadow img {
+  width: 400px;
+  height: auto;
+}
