@@ -51,14 +51,10 @@
     padding: 0 10px;
 }
 
-.col-3, .col-4, .col-5, .col-6, .col-8, .col-10, .col-11, .col-tab-4, .col-tab-12 {
+.col-3, .col-4, .col-5, .col-6, .col-8, .col-10, .col-11,
+ .col-tab-4 .col-tab-12, .col-phone-2, .col-phone-4, .col-phone-10 {
     padding: 0 10px;
     float: left;
-}
-
-.col-phone-2, .col-phone-4, .col-phone-10 {
-    float: left;
-    padding: 0;
 }
 
 .col-1-margin {
@@ -98,21 +94,22 @@
     .col-tab-12 {
         width: @col-width*12;
     }
-
-    .responsive {
-        width: 100% !important;
-        height: auto;
-    }
 }
 
 @media (max-width: 768px) {
+    h1 {
+    font-size: 10vw!important;
+}
+
+h2 {
+    font-size: 8vw!important;
+}
+
+h3 {
+    font-size: 6vw!important;
+}
     .inner {
         width: 100% !important;
-    }
-
-    .responsive {
-        width: 100% !important;
-        height: auto;
     }
 
     .hidden {
@@ -148,7 +145,7 @@
         width: @col-width*10;
     }
 
-    .col-phone-2, .col-phone-2 {
+    .col-phone-2, .col-phone-4 {
         float: left;
         padding: 0;
     }
@@ -169,7 +166,7 @@
             float: none !important;
 
             a {
-                padding: 10px 20px;
+                padding: 10px 20px !important;
                 font-weight: normal;
 
                 &:hover, &.active {
@@ -193,13 +190,11 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+.wrap{
+    overflow-x: hidden !important;
+}
 header, footer, section, nav {
     display: block;
-}
-
-header, .history, .mercury, .comments, footer {
-    min-width: 511px;
 }
 
 body {
@@ -270,7 +265,6 @@ img {
 .inner {
     width: 960px;
     margin: 0 auto;
-    min-width: 461px;
 }
 
 header.head {
@@ -442,7 +436,7 @@ section.guestion {
     }
 }
 
-section.jewelery, section.photoblog {
+section.jewellery, section.photoblog {
     .col-3 {
         padding: 0;
 
@@ -483,7 +477,6 @@ section.comments {
         }
 
         p {
-            width: 380px;
             margin: 16px auto;
         }
     }
@@ -560,41 +553,4 @@ footer {
             color: @color-footer;
         }
     }
-}
-
-
-.anchor {
-    .btn(@bg-color:#f33,@radius:5px,@padding:10px);
-    position: fixed;
-    top: 500px;
-    right: 20px;
-    z-index: 1;
-    display: none;
-}
-
-#shadow {
-    position: fixed;
-    background: RGBa(0,0,0,0.5);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: none;
-    z-index: 10;
-}
-
-.window {
-    position: fixed;
-    width: 400px;
-    height: 400px;
-    top: 50%;
-    left: 50%;
-    background-color: white;
-    margin-top: -150px;
-    margin-left: -200px;
-}
-
-#shadow img {
-    width: 400px;
-    height: auto;
 }
